@@ -123,7 +123,7 @@ function App_Screen() {
 function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator headerMode="none" initialRouteName="Home" screenOptions={{ gestureEnabled: false }}>
+      <Stack.Navigator headerMode="none" initialRouteName="Screen_Splash" screenOptions={{ gestureEnabled: false }}>
         <Stack.Screen name="Screen_Splash" component={SplashScreen} options={{ headerShown: false }} />
         <Stack.Screen name="Screen_Login" component={Login} />
         <Stack.Screen name="Screen_Confirm" component={Confirm} />
